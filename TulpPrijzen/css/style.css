@@ -8,5 +8,22 @@ html{
 }
 
 body{
-    background: black;
+    font-size: 2rem;
+
+}
+
+.nav{
+    width: 100vw;
+    background-color: blue;
+    display:flex;
+    justify-content: space-between;
+    height: 7rem;
+    align-items: center;
+}
+
+.list{
+    display:flex;
+    list-style: none;
+    gap: 2rem;
+
 }
